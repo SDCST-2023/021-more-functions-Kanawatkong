@@ -14,7 +14,9 @@ assert btcTocad(1) == 45000
 (2 points) 
 """
 
-def btcTocad():
+def btcTocad(x):
+    answer = 45000 * x
+    return answer
     pass
 
 
