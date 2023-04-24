@@ -13,9 +13,11 @@ Sample assertions:
 assert hypotenuse(6,8) == 10
 (2 points)
 """
+import math
 
-
-def hypotenuse():
-    pass
-
-assert hypotenuse(6,8) == 10
+def hypotenuse(a,b):
+    answer = math.sqrt(a**2 + b**2)
+    return answer
+    
+if __name__ == "__name__":
+    assert hypotenuse(6,8) == 10
